@@ -20,6 +20,27 @@ import readlinesync = require("readline-sync");
         console.log("Entre com a opção desejada: ");
         opcao = readlinesync.questionInt("");
 
+        
+        switch (opcao) {
+            case 1:
+                console.log("\n\nSe cadastar na loja\n\n");
+
+                break;
+            case 2:
+                console.log("\n\nListar os produtos \n\n");
+
+                break;
+            case 3:
+                console.log("\n\nBuscar produto desejado\n\n");
+
+                break;
+            case 4:
+                console.log("\n\nAtualizar produtos\n\n");
+
+                break;
+        
+        }
+
         if (opcao == 5) {
             console.log("\nMelhores produtos para seu Aumiguinho!");
         }
