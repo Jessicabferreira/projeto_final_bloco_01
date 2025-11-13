@@ -30,11 +30,11 @@ export class produto {
      }
 
         console.log("\n\n*****************************************************")
-        console.log("Nome do Clinte:")
+        console.log("Cadastrar produto:")
         console.log("*****************************************************")
         console.log("Listar os produtos : " + this._cliente)
-        console.log("Buscar produto: " + this._produtos);
-        console.log("Atualizar produtos: " + this._atualizar)
+        console.log("Buscar produto desejado: " + this._produtos);
+        console.log("Deletar os produtos: " + this._atualizar)
 
     }
 
