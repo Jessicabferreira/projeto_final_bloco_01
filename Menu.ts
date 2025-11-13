@@ -9,7 +9,7 @@ import readlinesync = require("readline-sync");
         console.log("                Tudo para seu Pet                    ");
         console.log("*****************************************************");
         console.log("                                                     ");
-        console.log("            1 - Se cadastar na loja                     ");
+        console.log("            1 - Se cadastar na loja                  ");
         console.log("            2 - Listar os produtos                   ");
         console.log("            3 - Buscar produto desejado              ");
         console.log("            4 - Atualizar produtos                   ");
