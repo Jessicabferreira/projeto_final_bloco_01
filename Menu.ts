@@ -9,10 +9,10 @@ import readlinesync = require("readline-sync");
         console.log("                Tudo para seu Pet                    ");
         console.log("*****************************************************");
         console.log("                                                     ");
-        console.log("            1 - Se cadastar na loja                  ");
+        console.log("            1 - Cadastar o produto                  ");
         console.log("            2 - Listar os produtos                   ");
         console.log("            3 - Buscar produto desejado              ");
-        console.log("            4 - Atualizar produtos                   ");
+        console.log("            4 - Deletar os produtos                   ");
         console.log("            5 - Sair                                 ");
         console.log("*****************************************************");
         console.log("                                                     ");
@@ -23,7 +23,7 @@ import readlinesync = require("readline-sync");
         
         switch (opcao) {
             case 1:
-                console.log("\n\nSe cadastar na loja\n\n");
+                console.log("\n\nCadastar o produto\n\n");
 
                 break;
             case 2:
@@ -35,7 +35,7 @@ import readlinesync = require("readline-sync");
 
                 break;
             case 4:
-                console.log("\n\nAtualizar produtos\n\n");
+                console.log("\n\nDeletar os produtos\n\n");
 
                 break;
         
@@ -43,4 +43,13 @@ import readlinesync = require("readline-sync");
 
         if (opcao == 5) {
             console.log("\nMelhores produtos para seu Aumiguinho!");
+            sobre()
         }
+
+        function sobre(): void {
+    console.log("\n*****************************************************")
+    console.log("Projeto Desenvolvido por: Jessica Berteloni Ferreira ")
+    console.log("Generation Brasil - generation@generation.org")
+    console.log("github.com/conteudoGeneration")
+    console.log("*****************************************************")
+}
